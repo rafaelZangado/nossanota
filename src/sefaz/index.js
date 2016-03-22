@@ -3,7 +3,7 @@
 import 'isomorphic-fetch'
 
 const url = (link) => (
-  `http://54.233.138.100/nfe/${link}`
+  `https://54.233.138.100/nfe/${link}`
 )
 
 export function consultarNotaFiscal (link) {
