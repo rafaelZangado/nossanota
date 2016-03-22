@@ -32,7 +32,7 @@ module.exports = {
     loaders: [
       { test: /\.js$/, loader: 'babel', include: /src/ },
       { test: /\.css$/, loaders: ['style', 'css', 'postcss']  },
-      { test: /\.(png|jpg|eot|ttf|woff|woff2|svg)/, loader: 'file-loader?name=/[path]/[name].[ext]' },
+      { test: /\.(png|jpg|eot|ttf|woff|woff2|svg)/, loader: 'file-loader' },
       { test: /\.(json|xml)/, loader: 'file-loader' }
     ]
   },
